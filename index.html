@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, My name is Prajwal Raj N, I am Java full stack developer, professional skilled in both front-end and back-end development using Java and related technologies. 
+            Skills and Technologies
+Front-End: Proficiency in HTML, CSS, JavaScript, and frameworks like Angular, React.
+Back-End: Strong knowledge of Java, along with frameworks like Spring or Spring Boot for building robust applications.
+Database: Understanding of relational databases such as MySQL, PostgreSQL, or NoSQL databases like MongoDB.
+Version Control: Experience with Git for code management and collaboration.
+Web Services: Familiarity with RESTful APIs and web services.
+            
+        </p>
+        <span ref={el}></span>
+        <div className="buttons">
+            <a href="resume.pdf" className="btn"> Download Resume</a> <br> </br>
+            <a href="https://github.com/prajwalrajn" className="btn"> Visit GitHub</a> 
+    </section>
+
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Rebel Fitness Website </h3>
+            
+            <p1>The Rebel Fitness Web Application is designed to facilitate gym registration and course enrollment for prospective and existing gym members. 
+                The platform aims to streamline the process of joining the gym and signing up for various fitness courses, enhancing the user experience and increasing member engagement.</p1>
+            <br></br>
+            <img src="./gym.png" alt="">
+        </div>
+        
+    </section>
+
+    <section className="secondSection">
+        <h1 id="skills">Skills</h1>
+        <div className="box-container">
+            <div className="box">
+                <h2>Web Technologies</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>React</li>
+                </ul>
+            </div>
+            <div className="box">
+                <h2>Backend Technologies</h2>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <li>Java</li>
+                    <li>Spring Boot</li>
+                    <li>Python</li>
+                    <li>Django</li>
+                </ul>
+            </div>
+            <div className="box">
+                <h2>Database Technologies</h2>
+                <ul>
+                    <li>MySQL</li>
+                    <li>PostgreSQL</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+        </div>
+        <hr className="box-hr" />
+
+      
+           
+        </div>
+        
+    </section>
+    <footer>
+        <p>&copy; Copyright Prajwal Raj N Portfolio | All rights reserved |</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

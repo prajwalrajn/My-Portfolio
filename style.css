@@ -1,0 +1,59 @@
+
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #2809dd;
+    color: #333;
+}
+
+header {
+    background-color: hsl(0, 90%, 49%);
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color:hsl(0, 90%, 49%);
+    color: #fff;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+}
+
+
+
+
